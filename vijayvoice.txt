@@ -1,0 +1,11 @@
+jupter notebook
+
+import getpass
+
+from pyht import Client
+from dotenv import load_dotenv
+from pyht.client import TTSOptions
+from pydub import AudioSegment
+from pydub.playback import play
+import maskpass
+import io
